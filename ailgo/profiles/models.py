@@ -8,7 +8,7 @@ from doctor.models import Doctor
 
 GENDER = ( (1,'MALE'),
 	(2, 'FEMALE'), 
-	(3,'NA')
+	(3,'OTHER')
 	)
 
 class User(models.Model):
